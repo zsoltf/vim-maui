@@ -21,9 +21,9 @@ hi ModeMsg        term=bold cterm=bold ctermfg=229
 hi LineNr         term=underline ctermfg=236 ctermbg=233
 hi CursorLineNr   term=bold ctermfg=208
 hi Question       term=standout ctermfg=81
-hi StatusLine     term=bold,reverse cterm=bold,reverse ctermfg=67 ctermbg=233
-hi StatusLineNC   term=reverse cterm=reverse ctermfg=67 ctermbg=233
-hi VertSplit      term=reverse ctermfg=67 ctermbg=67
+hi StatusLine     term=bold cterm=bold ctermfg=67 ctermbg=236
+hi StatusLineNC   term=none cterm=none ctermfg=67 ctermbg=236
+hi VertSplit      term=none ctermfg=236 ctermbg=236
 hi Title          term=bold ctermfg=166
 hi Visual         term=reverse cterm=bold ctermbg=236
 hi VisualNOS      ctermbg=238
