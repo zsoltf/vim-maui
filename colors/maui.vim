@@ -57,7 +57,7 @@ hi Cursor         ctermfg=16 ctermbg=253
 hi Comment        ctermfg=238
 hi Constant       term=underline cterm=bold ctermfg=135
 hi Identifier     term=underline ctermfg=67
-hi Statement      term=bold cterm=bold ctermfg=166
+hi Statement      term=bold cterm=bold ctermfg=166 ctermbg=0
 hi PreProc        term=underline ctermfg=107
 hi Type           term=underline ctermfg=68
 hi Special        term=bold ctermfg=67
@@ -70,7 +70,7 @@ hi Character      ctermfg=144
 hi Number         ctermfg=66
 hi Boolean        ctermfg=208
 hi Float          ctermfg=208
-hi Function       ctermfg=67
+hi Function       ctermfg=67 ctermbg=234
 hi Conditional    cterm=bold ctermfg=208
 hi Repeat         cterm=bold ctermfg=161
 hi Label          ctermfg=229
