@@ -56,10 +56,10 @@ hi Normal         ctermfg=252 ctermbg=233
 hi Cursor         ctermfg=16 ctermbg=253
 hi Comment        ctermfg=238
 hi Constant       term=underline cterm=bold ctermfg=135
-hi Identifier     term=underline ctermfg=208
-hi Statement      term=bold cterm=bold ctermfg=161
+hi Identifier     term=underline ctermfg=67
+hi Statement      term=bold cterm=bold ctermfg=166
 hi PreProc        term=underline ctermfg=107
-hi Type           term=underline ctermfg=81
+hi Type           term=underline ctermfg=68
 hi Special        term=bold ctermfg=67
 hi Ignore         ctermfg=244 ctermbg=232
 hi Todo           term=standout cterm=bold ctermfg=231 ctermbg=232
@@ -67,7 +67,7 @@ hi Underlined     term=underline cterm=underline ctermfg=244
 hi Error          term=reverse ctermfg=219 ctermbg=89
 hi String         ctermfg=108
 hi Character      ctermfg=144
-hi Number         ctermfg=67
+hi Number         ctermfg=66
 hi Boolean        ctermfg=208
 hi Float          ctermfg=208
 hi Function       ctermfg=67
