@@ -29,7 +29,7 @@ hi Visual         term=reverse cterm=bold ctermbg=236
 hi VisualNOS      ctermbg=238
 hi WarningMsg     term=standout cterm=bold ctermfg=231 ctermbg=238
 hi WildMenu       term=standout ctermfg=81 ctermbg=16
-hi Folded         term=standout ctermfg=16 ctermbg=67
+hi Folded         term=standout ctermfg=67 ctermbg=235
 hi FoldColumn     term=standout ctermfg=67 ctermbg=16
 hi DiffAdd        term=bold ctermbg=24
 hi DiffChange     term=bold ctermfg=181 ctermbg=239
