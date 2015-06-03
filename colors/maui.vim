@@ -55,9 +55,9 @@ hi MatchParen     term=reverse cterm=bold ctermfg=233 ctermbg=208
 hi Normal         ctermfg=252 ctermbg=233
 hi Cursor         ctermfg=16 ctermbg=253
 hi Comment        ctermfg=238
-hi Constant       term=underline cterm=bold ctermfg=135
+hi Constant       term=underline cterm=bold ctermfg=161
 hi Identifier     term=underline ctermfg=67
-hi Statement      term=bold cterm=bold ctermfg=166 ctermbg=0
+hi Statement      term=bold cterm=bold ctermfg=166
 hi PreProc        term=underline ctermfg=107
 hi Type           term=underline ctermfg=68
 hi Special        term=bold ctermfg=67
@@ -67,10 +67,10 @@ hi Underlined     term=underline cterm=underline ctermfg=244
 hi Error          term=reverse ctermfg=219 ctermbg=89
 hi String         ctermfg=108
 hi Character      ctermfg=144
-hi Number         ctermfg=66
+hi Number         ctermfg=75
 hi Boolean        ctermfg=208
 hi Float          ctermfg=208
-hi Function       ctermfg=67 ctermbg=234
+hi Function       ctermfg=67
 hi Conditional    cterm=bold ctermfg=208
 hi Repeat         cterm=bold ctermfg=161
 hi Label          ctermfg=229
@@ -90,7 +90,7 @@ hi SpecialComment cterm=bold ctermfg=245
 hi Debug          cterm=bold ctermfg=225
 
 hi IndentGuidesOdd ctermbg=233
-hi IndentGuidesEven ctermbg=0
+hi IndentGuidesEven ctermbg=234
 
 " }}}
 
