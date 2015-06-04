@@ -14,7 +14,7 @@ hi SpecialKey     term=bold ctermfg=59
 hi NonText        term=bold ctermfg=59
 hi Directory      term=bold cterm=bold ctermfg=118
 hi ErrorMsg       term=standout cterm=bold ctermfg=199 ctermbg=16
-hi IncSearch      term=reverse cterm=reverse ctermfg=193 ctermbg=16
+hi IncSearch      term=reverse cterm=reverse ctermfg=166 ctermbg=16
 hi Search         term=reverse ctermfg=0 ctermbg=222
 hi MoreMsg        term=bold ctermfg=229
 hi ModeMsg        term=bold cterm=bold ctermfg=229
