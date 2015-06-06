@@ -31,9 +31,9 @@ hi WarningMsg     term=standout cterm=bold ctermfg=231 ctermbg=238
 hi WildMenu       term=standout ctermfg=81 ctermbg=16
 hi Folded         term=standout ctermfg=67 ctermbg=235
 hi FoldColumn     term=standout ctermfg=67 ctermbg=16
-hi DiffAdd        term=bold ctermbg=24
-hi DiffChange     term=bold ctermfg=181 ctermbg=239
-hi DiffDelete     term=bold ctermfg=162 ctermbg=53
+hi DiffAdd        term=bold ctermbg=22
+hi DiffChange     term=bold ctermbg=238
+hi DiffDelete     term=bold ctermfg=0 ctermbg=52
 hi DiffText       term=reverse cterm=bold ctermbg=102
 hi SignColumn     term=standout ctermfg=118 ctermbg=235
 hi Conceal        ctermfg=7 ctermbg=242
@@ -88,6 +88,10 @@ hi SpecialChar    cterm=bold ctermfg=161
 hi Delimiter      ctermfg=67
 hi SpecialComment cterm=bold ctermfg=245
 hi Debug          cterm=bold ctermfg=225
+
+hi link diffAdded DiffAdd
+hi link diffRemoved DiffDelete
+hi link diffChaged DiffChange
 
 hi IndentGuidesOdd ctermbg=233
 hi IndentGuidesEven ctermbg=234
