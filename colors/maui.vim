@@ -92,6 +92,10 @@ hi Debug          cterm=bold ctermfg=225
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 
+hi link gitKeyword Function
+hi link gitIdentity Title
+hi link gitDate PreProc
+
 hi IndentGuidesOdd ctermbg=233
 hi IndentGuidesEven ctermbg=234
 
