@@ -32,9 +32,9 @@ hi WildMenu       term=standout ctermfg=81 ctermbg=16
 hi Folded         term=standout ctermfg=67 ctermbg=235
 hi FoldColumn     term=standout ctermfg=67 ctermbg=16
 hi DiffAdd        term=bold ctermbg=22
-hi DiffChange     term=bold ctermbg=238
+hi DiffChange     term=bold ctermbg=0
 hi DiffDelete     term=bold ctermfg=0 ctermbg=52
-hi DiffText       term=reverse cterm=bold ctermbg=102
+hi DiffText       term=reverse cterm=bold ctermbg=222 ctermfg=0
 hi SignColumn     term=standout ctermfg=118 ctermbg=235
 hi Conceal        ctermfg=7 ctermbg=242
 hi SpellBad       term=reverse ctermbg=52
@@ -91,7 +91,6 @@ hi Debug          cterm=bold ctermfg=225
 
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
-hi link diffChaged DiffChange
 
 hi IndentGuidesOdd ctermbg=233
 hi IndentGuidesEven ctermbg=234
