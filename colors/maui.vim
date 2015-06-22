@@ -12,7 +12,7 @@ let g:colors_name="maui"
 " Highlighting Commands: {{{
 hi SpecialKey     term=bold ctermfg=59
 hi NonText        term=bold ctermfg=59
-hi Directory      term=bold cterm=bold ctermfg=118
+hi Directory      term=bold cterm=bold ctermfg=67
 hi ErrorMsg       term=standout cterm=bold ctermfg=199 ctermbg=16
 hi IncSearch      term=reverse cterm=reverse ctermfg=166 ctermbg=16
 hi Search         term=reverse ctermfg=0 ctermbg=222
@@ -99,6 +99,12 @@ hi link gitDate PreProc
 hi IndentGuidesOdd ctermbg=233
 hi IndentGuidesEven ctermbg=234
 
+hi link SyntasticError Error
+hi link SyntasticWarning ErrorMsg
+"hi SyntasticWarningLine ctermbg=yellow
+"hi SyntasticErrorLine ctermbg=red
+hi SyntasticWarningSign ctermfg=yellow ctermbg=233
+hi SyntasticErrorSign ctermfg=red ctermbg=233
 " }}}
 
 
