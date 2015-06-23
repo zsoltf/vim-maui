@@ -54,7 +54,7 @@ hi ColorColumn    term=none ctermbg=236
 hi MatchParen     term=reverse cterm=bold ctermfg=233 ctermbg=208
 hi Normal         ctermfg=252 ctermbg=233
 hi Cursor         ctermfg=16 ctermbg=253
-hi Comment        ctermfg=244
+hi Comment        ctermfg=240
 hi Constant       term=underline cterm=bold ctermfg=161
 hi Identifier     term=underline ctermfg=67
 hi Statement      term=bold cterm=bold ctermfg=166
