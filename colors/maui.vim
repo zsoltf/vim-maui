@@ -97,7 +97,7 @@ hi link gitIdentity Title
 hi link gitDate PreProc
 
 hi IndentGuidesOdd ctermbg=233
-hi IndentGuidesEven ctermbg=0
+hi IndentGuidesEven ctermbg=232
 
 hi SyntasticError term=reverse cterm=bold,underline ctermfg=219 ctermbg=236
 hi SyntasticWarning term=standout cterm=bold,underline ctermfg=199 ctermbg=235
