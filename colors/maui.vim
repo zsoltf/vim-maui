@@ -49,10 +49,10 @@ hi TabLine term=underline gui=underline cterm=underline guifg=#ffffff ctermfg=15
 hi TabLineSel term=bold gui=bold cterm=bold
 hi TabLineFill term=reverse gui=reverse cterm=reverse
 hi CursorColumn term=reverse guibg=#303030 ctermbg=236
-hi CursorLine term=none gui=underline cterm=underline guibg=#121212 ctermbg=233
+hi CursorLine term=none gui=underline cterm=underline guibg=#000000 ctermbg=233
 hi ColorColumn term=none guibg=#303030 ctermbg=236
 hi MatchParen term=reverse gui=bold cterm=bold guifg=#121212 ctermfg=233 guibg=#ff8700 ctermbg=208
-hi Normal guifg=#d0d0d0 ctermfg=252 guibg=#121212 ctermbg=233
+hi Normal guifg=#d0d0d0 ctermfg=252 guibg=#000000 ctermbg=233
 hi Cursor guifg=#000000 ctermfg=16 guibg=#dadada ctermbg=253
 hi Comment guifg=#585858 ctermfg=240
 hi Constant term=underline gui=bold cterm=bold guifg=#df005f ctermfg=161
