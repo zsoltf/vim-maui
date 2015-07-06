@@ -33,8 +33,8 @@ hi Folded         term=standout ctermfg=67 ctermbg=235
 hi FoldColumn     term=standout ctermfg=67 ctermbg=16
 hi DiffAdd        term=bold ctermbg=22
 hi DiffChange     term=bold ctermbg=0
-hi DiffDelete     term=bold ctermfg=245 ctermbg=52
-hi DiffText       term=reverse cterm=bold ctermbg=222 ctermfg=0
+hi DiffDelete     term=bold ctermfg=52 ctermbg=52
+hi DiffText       term=bold cterm=bold ctermbg=238
 hi SignColumn     term=standout ctermfg=118 ctermbg=235
 hi Conceal        ctermfg=7 ctermbg=242
 hi SpellBad       term=reverse ctermbg=52
@@ -89,8 +89,8 @@ hi Delimiter      ctermfg=67
 hi SpecialComment cterm=bold ctermfg=245
 hi Debug          cterm=bold ctermfg=225
 
+hi diffRemoved    term=bold ctermbg=52
 hi link diffAdded DiffAdd
-hi link diffRemoved DiffDelete
 
 hi link gitKeyword Function
 hi link gitIdentity Title
