@@ -18,7 +18,7 @@ hi IncSearch term=reverse gui=reverse cterm=reverse guifg=#1c1c1c ctermfg=234 gu
 hi Search term=reverse guibg=#df5f00 ctermbg=166
 hi MoreMsg term=bold guifg=#ffffaf ctermfg=229
 hi ModeMsg term=bold gui=bold cterm=bold guifg=#ffffaf ctermfg=229
-hi LineNr term=underline guifg=#303030 ctermfg=236 guibg=#121212 ctermbg=233
+hi LineNr term=underline guifg=#303030 ctermfg=236 guibg=#101010 ctermbg=233
 hi CursorLineNr term=bold guifg=#ff8700 ctermfg=208
 hi Question term=standout guifg=#5fdfff ctermfg=81
 hi StatusLine term=bold gui=bold cterm=bold guifg=#5f87af ctermfg=67 guibg=#303030 ctermbg=236
@@ -31,10 +31,10 @@ hi WarningMsg term=standout gui=bold cterm=bold guifg=#ffffff ctermfg=231 guibg=
 hi WildMenu term=standout guifg=#5fdfff ctermfg=81 guibg=#000000 ctermbg=16
 hi Folded term=standout guifg=#5f87af ctermfg=67 guibg=#262626 ctermbg=235
 hi FoldColumn term=standout guifg=#5f87af ctermfg=67 guibg=#000000 ctermbg=16
-hi DiffAdd term=bold guibg=#005f00 ctermbg=22
-hi DiffChange term=bold guibg=#000000 ctermbg=0
+hi DiffAdd term=bold guibg=#1d3600 ctermbg=22
+hi DiffChange term=bold guibg=#1d3600 ctermbg=0
 hi DiffDelete term=bold guifg=#5f0000 ctermfg=52 guibg=#5f0000 ctermbg=52
-hi DiffText term=bold gui=bold cterm=bold guibg=#444444 ctermbg=238
+hi DiffText term=bold gui=bold cterm=bold guibg=#2a4f00 ctermbg=238
 hi SignColumn term=standout guifg=#87ff00 ctermfg=118 guibg=#262626 ctermbg=235
 hi Conceal guifg=#c0c0c0 ctermfg=7 guibg=#666666 ctermbg=242
 hi SpellBad term=reverse guibg=#5f0000 ctermbg=52
@@ -49,11 +49,11 @@ hi TabLine term=underline gui=underline cterm=underline guifg=#ffffff ctermfg=15
 hi TabLineSel term=bold gui=bold cterm=bold
 hi TabLineFill term=reverse gui=reverse cterm=reverse
 hi CursorColumn term=reverse guibg=#303030 ctermbg=236
-hi CursorLine term=none gui=underline cterm=underline guibg=#000000 ctermbg=233
+hi CursorLine term=none gui=none cterm=none guibg=#000000 ctermbg=233
 hi ColorColumn term=none guibg=#303030 ctermbg=236
 hi MatchParen term=reverse gui=bold cterm=bold guifg=#121212 ctermfg=233 guibg=#ff8700 ctermbg=208
-hi Normal guifg=#d0d0d0 ctermfg=252 guibg=#000000 ctermbg=233
-hi Cursor guifg=#000000 ctermfg=16 guibg=#dadada ctermbg=253
+hi Normal guifg=#d0d0d0 ctermfg=252 guibg=#151515 ctermbg=233
+hi Cursor guifg=#151515 ctermfg=16 guibg=#dadada ctermbg=253
 hi Comment guifg=#585858 ctermfg=240
 hi Constant term=underline gui=bold cterm=bold guifg=#df005f ctermfg=161
 hi Identifier term=underline guifg=#5f87af ctermfg=67
@@ -96,7 +96,7 @@ hi link gitKeyword Function
 hi link gitIdentity Title
 hi link gitDate PreProc
 
-hi IndentGuidesOdd guibg=#121212 ctermbg=233
+hi IndentGuidesOdd guibg=#151515 ctermbg=233
 hi IndentGuidesEven guibg=#080808 ctermbg=232
 
 hi SyntasticError term=reverse gui=bold,underline cterm=bold,underline guifg=#ffafff ctermfg=219 guibg=#303030 ctermbg=236
