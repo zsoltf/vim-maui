@@ -107,5 +107,6 @@ hi SyntasticWarningSign ctermfg=yellow guibg=#121212 ctermbg=233
 hi SyntasticErrorSign ctermfg=red guibg=#121212 ctermbg=233
 " }}}
 
+set bg=dark "bg switches to light for some reason
 
 " vim:set fdm=marker
