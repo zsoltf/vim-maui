@@ -25,7 +25,7 @@ hi StatusLine term=bold gui=bold cterm=bold guifg=#5f87af ctermfg=67 guibg=#3030
 hi StatusLineNC term=none gui=none cterm=none guifg=#5f87af ctermfg=67 guibg=#303030 ctermbg=236
 hi VertSplit term=none guifg=#303030 ctermfg=236 guibg=#303030 ctermbg=236
 hi Title term=bold guifg=#df5f00 ctermfg=166
-hi Visual term=reverse gui=bold cterm=bold guibg=#303030 ctermbg=236
+hi Visual term=reverse gui=none cterm=none guibg=#003366 ctermbg=236
 hi VisualNOS guibg=#444444 ctermbg=238
 hi WarningMsg term=standout gui=bold cterm=bold guifg=#ffffff ctermfg=231 guibg=#444444 ctermbg=238
 hi WildMenu term=standout guifg=#5fdfff ctermfg=81 guibg=#000000 ctermbg=16
