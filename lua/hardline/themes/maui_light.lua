@@ -22,10 +22,10 @@ return {
   mode = {
     inactive = inactive,
     normal = {
-      guifg = colors.white.gui,
-      guibg = colors.grey_menu.gui,
-      ctermfg = colors.white.cterm,
-      ctermbg = colors.grey_menu.cterm,
+      guifg = colors.blue.gui,
+      guibg = colors.grey_cursor.gui,
+      ctermfg = colors.blue.cterm,
+      ctermbg = colors.grey_cursor.cterm,
     },
     insert = {
       guifg = colors.black.gui,
@@ -64,18 +64,18 @@ return {
   med = {
     active = {
       guifg = colors.white.gui,
-      guibg = colors.grey_menu.gui,
+      guibg = colors.grey_cursor.gui,
       ctermfg = colors.white.cterm,
-      ctermbg = colors.grey_menu.cterm,
+      ctermbg = colors.grey_cursor.cterm,
     },
     inactive = inactive,
   },
   high = {
     active = {
-      guifg = colors.black.gui,
-      guibg = colors.blue.gui,
-      ctermfg = colors.black.cterm,
-      ctermbg = colors.blue.cterm,
+      guifg = colors.blue.gui,
+      guibg = colors.grey_cursor.gui,
+      ctermfg = colors.blue.cterm,
+      ctermbg = colors.grey_cursor.cterm,
     },
     inactive = inactive,
   },
@@ -113,15 +113,15 @@ return {
     },
     background = {
       guifg = colors.white.gui,
-      guibg = colors.grey_cursor.gui,
+      guibg = colors.grey_menu.gui,
       ctermfg = colors.white.cterm,
-      ctermbg = colors.grey_cursor.cterm,
+      ctermbg = colors.grey_menu.cterm,
     },
     background_modified = {
       guifg = colors.orange.gui,
-      guibg = colors.grey_cursor.gui,
+      guibg = colors.grey_menu.gui,
       ctermfg = colors.orange.cterm,
-      ctermbg = colors.grey_cursor.cterm,
+      ctermbg = colors.grey_menu.cterm,
     },
   },
 }
