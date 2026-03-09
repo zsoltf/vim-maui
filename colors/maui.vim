@@ -47,7 +47,7 @@ hi PmenuSbar guibg=#080808 ctermbg=232
 hi PmenuThumb guifg=#5fdfff ctermfg=81 guibg=#ffffff ctermbg=15
 hi TabLine term=underline gui=underline cterm=underline guifg=#ffffff ctermfg=15 guibg=#666666 ctermbg=242
 hi TabLineSel term=bold gui=bold cterm=bold
-hi TabLineFill term=reverse gui=reverse cterm=reverse
+hi TabLineFill term=none gui=none cterm=none guifg=#303030 ctermfg=236 guibg=#303030 ctermbg=236
 hi CursorColumn term=reverse guibg=#303030 ctermbg=236
 hi CursorLine term=none gui=none cterm=none guibg=#000000 ctermbg=233
 hi ColorColumn term=none guibg=#303030 ctermbg=236
