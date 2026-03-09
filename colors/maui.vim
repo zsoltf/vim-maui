@@ -109,4 +109,13 @@ hi SyntasticErrorSign ctermfg=red guibg=#121212 ctermbg=233
 
 set bg=dark "bg switches to light for some reason
 
+if has('nvim')
+  lua << EOF
+  local ok, hardline = pcall(require, 'hardline')
+  if ok then
+    hardline.setup({ theme = 'maui' })
+  end
+EOF
+endif
+
 " vim:set fdm=marker
