@@ -113,15 +113,15 @@ return {
     },
     background = {
       guifg = colors.white.gui,
-      guibg = colors.grey_menu.gui,
+      guibg = colors.grey_cursor.gui,
       ctermfg = colors.white.cterm,
-      ctermbg = colors.grey_menu.cterm,
+      ctermbg = colors.grey_cursor.cterm,
     },
     background_modified = {
       guifg = colors.orange.gui,
-      guibg = colors.grey_menu.gui,
+      guibg = colors.grey_cursor.gui,
       ctermfg = colors.orange.cterm,
-      ctermbg = colors.grey_menu.cterm,
+      ctermbg = colors.grey_cursor.cterm,
     },
   },
 }
